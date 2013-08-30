@@ -1,0 +1,20 @@
+ {
+  "name": "MEXSPORT",
+  "type":"privileged",
+  "description": "Deportes App",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "The Gaia Team",
+    "url": "https://github.com/mozilla-b2g/gaia"
+  },
+  "icons": {
+"128": "/ico.png"
+},
+
+  "permissions": {
+"device-storage:sdcard":{ "access": "readwrite" },
+"device-storage:pictures":{ "access": "readwrite" }
+}
+
+  
+}
